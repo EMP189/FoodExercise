@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <style>
+        body{
+        background-color: rgb(120,150,120);
+        padding-bottom: 150px;
+        background-image:
+    linear-gradient( to bottom,
+        rgba(30, 60, 30, 0.75),
+        rgba(30, 60, 30, 0.75)),
+     url("https://previews.123rf.com/images/themorningglory/themorningglory1705/themorningglory170500546/78234377-soccer-green-grass-background-botany-scene.jpg");
+    background-position: 0px 0px; /* was 0px -143px */
+    background-size: cover;
+    }
+    #main-image{
+        object-fit: cover; /* makes it crop */
+        object-position: 50% 50%;
+        height: 620px;
+        width: 100vw;
+        padding-top: 110px;
+        opacity: 0.85;
+        z-index: 50;
+        /* border-top: solid 3px rgb(10,200,10);
+        border-bottom: solid 3px rgb(10,200,10); */
+    }
+    #main-header{
+        color: white;
+        text-shadow:
+        -2px -2px 2px green,
+        2px -2px 2px green,
+        -2px 2px 2px green,
+        2px 2px 2px green;
+        position: absolute;
+        top: 0px;
+        left: 70px;
+        z-index: 10;
+        font-size: 90px;
+    }
+    h3{
+        color: white;
+        text-shadow:
+        -2px -2px 2px green,
+        2px -2px 2px green,
+        -2px 2px 2px green,
+        2px 2px 2px green;
+        position: absolute;
+        top: 600px;
+        left: 500px;
+        z-index: 10;
+        font-size: 50px;
+    }
+    #basic{
+        border-radius: 100%;
+        width: 350px;
+    }
+    #plate-1{
+        width: 300px;
+        position: absolute;
+        top: 250px ;
+        left: 40px;
+        transition: all .2s ease-in-out;
+    }
+    #plate-2{
+        width: 300px;
+        position: absolute;
+        top: 250px;
+        right: 40px;
+        transition: all .2s ease-in-out;
+    }
+    #plate-3{
+        width: 300px;
+        position: absolute;
+        top: 250px;
+        left: 400px;
+        transition: all .2s ease-in-out;
+    }
+    #plate-4{
+        width: 300px;
+        position: absolute;
+        top: 250px;
+        right: 400px ;
+        transition: all .2s ease-in-out;
+    }
+    #plate-1:hover{
+        transform: scale(1.15);
+    }
+    #plate-2:hover{
+        transform: scale(1.15);
+    }
+    #plate-3:hover{
+        transform: scale(1.15);
+    }
+    #plate-4:hover{
+        transform: scale(1.15);
+    }
+    </style>
+</head>
+<body>
+    <div id="homepage">
+        <h1 id="main-header">Vegan Meat Replacement Meals</h1>
+        <a id="link-1" href="recipes.html"><img id="plate-1" src="plate-1.png"></a>
+        <a id="link-2" href="recipes.html" ><img id="plate-2" src="plate-2.png"></a>
+        <a id="link-3" href="recipes.html" ><img id="plate-3" src="plate-3.png"></a>
+        <a id="link-4" href="recipes.html" ><img id="plate-4" src="plate-4.png"></a>
+       <!--  <img id="plate-5" src="plate-5.png"> -->
+       <h3>Click a meal to start</h3>
+    </div>
+    <script>
+    </script>
+</body>
+</html>
